@@ -1,0 +1,686 @@
+-!-Ini::PRUEBAS Enlistar
+1 2 5 
+
+-!-0::?-?-Prueba de pasar AB a ListaOrd 1
+1 2 5 
+
+-!-1::?-?-Prueba de pasar AB a ListaOrd 2
+1 1 1 1 1 1 2 2 2 2 3 3 4 
+
+-!-2::?-?-Prueba de pasar AB a ListaOrd 3
+-!-Fin::PRUEBAS Enlistar
+-!-Ini::PRUEBAS UnionListaOrd
+1 2 3 4 5 6 7 8 9 
+
+-!-3::?-?-Prueba union de dos listas ordenadas 1
+100 100 200 200 300 300 400 400 
+
+-!-4::?-?-Prueba union de dos listas ordenadas 2
+-1 0 1 5 
+
+-!-5::?-?-Prueba union de dos listas ordenadas 3
+-!-Fin::PRUEBAS UnionListaOrd
+-!-Ini::PRUEBAS EstaContenida
+No esta contenida
+
+-!-6::?-?-Prueba de pila contenida 1
+Esta contenida
+
+-!-7::?-?-Prueba de pila contenida 2
+No esta contenida
+
+-!-8::?-?-Prueba de pila contenida 3
+Esta contenida
+
+-!-9::?-?-Prueba de pila contenida 4
+-!-Fin::PRUEBAS EstaContenida
+-!-Ini::PRUEBAS CantidadDeHojas
+Cantidad de hojas: 2
+
+-!-10::?-?-Prueba contar hojas AB iterativo 1
+Cantidad de hojas: 1
+
+-!-11::?-?-Prueba contar hojas AB iterativo 2
+Cantidad de hojas: 5
+
+-!-12::?-?-Prueba contar hojas AB iterativo 3
+-!-Fin::PRUEBAS CantidadDeHojas
+-!-Ini::PRUEBAS ImprimirPorNiveles
+2 5 1 
+-!-13::?-?-Prueba imprimir AB por niveles 1
+5 2 1 
+-!-14::?-?-Prueba imprimir AB por niveles 2
+2 2 1 4 1 1 2 1 3 1 3 2 1 
+-!-15::?-?-Prueba imprimir AB por niveles 3
+-!-Fin::PRUEBAS ImprimirPorNiveles
+-!-Ini::PRUEBAS LISTA POS
+5 4 
+
+-!-16::?-?-Imprimo la lista luego de agregar 2 datos al principio
+5 4 2 1 
+
+-!-17::?-?-Imprimo la lista luego de agregar 2 datos al final
+5 4 3 2 1 
+
+-!-18::?-?-Imprimo la lista luego de agregar el dato 3 en la posición 2
+5
+
+-!-19::?-?-Imprimo el largo de la lista
+Resultado Original: 
+5 4 3 2 1 
+
+Resultado Clon: 
+5 4 3 2 1 
+
+-!-20::?-?-Imprimo el la lista original y su clon
+[]
+
+-!-21::?-?-Imprimo luego de crearvacia
+[5 4 3 2 1 ]
+
+-!-22::?-?-Imprimo luego de =
+La lista original es igual a la lista clon
+
+
+
+-!-23::?-?-Imprimo prueba de == sobre listas iguales
+La lista original no es igual a la lista clon
+
+
+Resultado Original: 
+5 4 3 2 1 
+
+Resultado Clon: 
+4 3 2 1 
+
+-!-24::?-?-Imprimo prueba de == sobre listas distintas
+Resultado Clon: 
+5 4 3 2 1 
+
+-!-25::?-?-Imprimo clon luego de asignarle l
+5
+
+-!-26::?-?-Imprimo el principio de la lista
+1
+
+-!-27::?-?-Imprimo el fin de la lista
+2
+
+-!-28::?-?-Imprimo el elemento de la cuarta posición
+4 3 2 1 
+
+-!-29::?-?-Imprimo la lista luego de eliminar el principio
+4 3 2 
+
+-!-30::?-?-Imprimo la lista luego de eliminar el fin
+4 3 
+
+-!-31::?-?-Imprimo la lista luego de eliminar el tercer elemento
+4 
+
+-!-32::?-?-Imprimo la lista luego de eliminar el elemento 3
+0
+
+-!-33::?-?-Imprimo la posicion del elemento 4
+Elemento 4 pertenece  a la lista
+
+
+
+-!-34::?-?-Imprimo si el elemento 4 existe en la lista
+Elemento 6 no pertenece a la lista
+
+
+
+-!-35::?-?-Imprimo si el elemento 6 existe en la lista
+La lista no se encuentra vacia
+
+
+
+-!-36::?-?-Imprimo si la lista se encuentra vacia
+[]
+
+
+
+-!-37::?-?-Imprimo la lista luego de vaciarla
+La lista se encuentra vacia
+
+
+
+-!-38::?-?-Imprimo si la lista se encuentra vacia 
+-!-Fin::PRUEBAS LISTA POS
+-!-Ini::PRUEBAS PILA
+9 7 5 3 1 8 6 4 2 0 
+
+-!-39::?-?-Imprimo la pila luego de agregar 10 datos
+9 == 9
+7 5 3 1 8 6 4 2 0 
+
+-!-40::?-?-Imprimo la pila luego de eliminar elemento
+Es Vacia: False == False
+
+-!-41::?-?-Muestro que la pila no es vacia
+Resultado Original: 
+7 5 3 1 8 6 4 2 0 
+Resultado Clon: 
+7 5 3 1 8 6 4 2 0 
+
+-!-42::?-?-Clono la pila y imprimo tanto el clon como la original
+[]
+
+-!-43::?-?-Imprimo luego de crearvacia
+[7 5 3 1 8 6 4 2 0 ]
+
+-!-44::?-?-Imprimo luego de =
+
+Es Vacia: True == True
+
+-!-45::?-?-Vacio la pila original y la imprimo
+
+La nueva Pila es Vacia: True == True
+
+-!-46::?-?-Uso el metodo CrearVacia y muestro que es vacia
+Resultado Pila Original: 0 == 0
+
+Resultado Pila Clon: 9 == 9
+
+
+-!-47::?-?-Muestro el largo de la pila clon y la original
+7 5 3 1 8 6 4 2 0 
+-!-48::?-?-Muestro todos los elementos de la pila clon
+-!-Fin::PRUEBAS PILA
+-!-Ini::PRUEBAS COLA
+5 4 3 2 1 
+
+-!-49::?-?-Imprimo la cola luego de agregar 5 elementos
+5
+
+-!-50::?-?-Imprimo el primer elemento 
+5
+
+4 3 2 1 
+
+-!-51::?-?-Imprimo el elemento desencolado y la cola
+4
+
+-!-52::?-?-Imprimo el largo de la cola
+Resultado Original: 
+4 3 2 1 
+
+Resultado Clon: 
+4 3 2 1 
+
+-!-53::?-?-Imprimo la cola original y el clon de la misma 
+[]
+
+-!-54::?-?-Imprimo luego de crearvacia
+[4 3 2 1 ]
+
+-!-55::?-?-Imprimo luego de =
+[]
+
+-!-56::?-?-Imprimo la cola luego de vaciarla
+Cola principal se encuentra vacia
+
+Cola clon no se encuentra vacia
+
+
+-!-57::?-?-Imprimo si la cola y su clon son vacias
+-!-Fin::PRUEBAS COLA
+-!-Ini::PRUEBAS ObtenerRepetidos
+1 
+
+-!-58::?-?-Prueba ObtenerRepetidos 1
+
+
+-!-59::?-?-Prueba ObtenerRepetidos 2
+1 2 
+
+-!-60::?-?-Prueba ObtenerRepetidos 3
+1 10 
+
+-!-61::?-?-Prueba ObtenerRepetidos 4
+
+
+-!-62::?-?-Prueba ObtenerRepetidos 5
+
+
+-!-63::?-?-Prueba ObtenerRepetidos 6
+1 
+
+-!-64::?-?-Prueba ObtenerRepetidos 7
+
+
+-!-65::?-?-Prueba ObtenerRepetidos 8
+4 6 
+
+-!-66::?-?-Prueba ObtenerRepetidos 9
+1 2 4 
+
+-!-67::?-?-Prueba ObtenerRepetidos 10
+6 
+
+-!-68::?-?-Prueba ObtenerRepetidos 11
+6 7 
+
+-!-69::?-?-Prueba ObtenerRepetidos 12
+-!-Fin::PRUEBAS ObtenerRepetidos
+-!-Ini::PRUEBAS ContarOcurrencias
+{1:2} - {2:1}
+
+-!-70::?-?-Prueba ContarOcurrencias 1
+
+
+-!-71::?-?-Prueba ContarOcurrencias 2
+{1:2} - {2:2} - {3:1}
+
+-!-72::?-?-Prueba ContarOcurrencias 3
+{1:4} - {5:1} - {8:1} - {10:2}
+
+-!-73::?-?-Prueba ContarOcurrencias 4
+{1:1}
+
+-!-74::?-?-Prueba ContarOcurrencias 5
+{1:1} - {2:1} - {3:1} - {4:1} - {5:1} - {6:1} - {7:1} - {8:1} - {9:1} - {10:1}
+
+-!-75::?-?-Prueba ContarOcurrencias 6
+{1:6}
+
+-!-76::?-?-Prueba ContarOcurrencias 7
+{1:1} - {10:1} - {100:1} - {1000:1}
+
+-!-77::?-?-Prueba ContarOcurrencias 8
+{4:4} - {6:4}
+
+-!-78::?-?-Prueba ContarOcurrencias 9
+{1:3} - {2:3} - {4:2} - {7:1}
+
+-!-79::?-?-Prueba ContarOcurrencias 10
+-!-Fin::PRUEBAS ContarOcurrencias
+-!-Ini::PRUEBAS Xor de multisets
+
+
+-!-80::?-?-Prueba Xor de multisets 1
+
+
+-!-81::?-?-Prueba Xor de multisets 2
+3 2 1 
+
+-!-82::?-?-Prueba Xor de multisets 3
+1 2 3 
+
+-!-83::?-?-Prueba Xor de multisets 4
+2 8 7 4 
+
+-!-84::?-?-Prueba Xor de multisets 5
+
+
+-!-85::?-?-Prueba Xor de multisets 6
+2 
+
+-!-86::?-?-Prueba Xor de multisets 7
+1 1 1 
+
+-!-87::?-?-Prueba Xor de multisets 8
+5 1 1 1 
+
+-!-88::?-?-Prueba Xor de multisets 9
+0 
+
+-!-89::?-?-Prueba Xor de multisets 10
+-!-Fin::PRUEBAS Xor de multisets
+-!-Ini::PRUEBAS Paréntesis Balanceados
+Estan balanceados
+
+-!-90::?-?-Prueba parentesisBalanceados 1
+Estan balanceados
+
+-!-91::?-?-Prueba parentesisBalanceados 2
+Estan balanceados
+
+-!-92::?-?-Prueba parentesisBalanceados 3
+No estan balanceados
+
+-!-93::?-?-Prueba parentesisBalanceados 4
+No estan balanceados
+
+-!-94::?-?-Prueba parentesisBalanceados 5
+No estan balanceados
+
+-!-95::?-?-Prueba parentesisBalanceados 6
+No estan balanceados
+
+-!-96::?-?-Prueba parentesisBalanceados 7
+No estan balanceados
+
+-!-97::?-?-Prueba parentesisBalanceados 8
+Estan balanceados
+
+-!-98::?-?-Prueba parentesisBalanceados 9
+No estan balanceados
+
+-!-99::?-?-Prueba parentesisBalanceados 10
+-!-Fin::PRUEBAS Paréntesis Balanceados
+-!-Ini::PRUEBAS LISTA ORD
+1 2 3 4 5 6 
+
+-!-100::?-?-Imprimo la lista luego de agregar 6 datos
+6
+
+-!-101::?-?-Imprimo el largo de la lista
+Resultado Original: 
+1 2 3 4 5 6 
+
+Resultado Clon: 
+1 2 3 4 5 6 
+
+-!-102::?-?-Imprimo la lista original y su clon
+Resultado Original: 
+1 2 3 4 5 6 
+
+Resultado lista obtenida operador =: 
+1 2 3 4 5 6 
+
+-!-103::?-?-Imprimo la lista original y la obtenida
+La lista original es igual a la lista clon
+
+
+
+-!-104::?-?-Imprimo prueba de == sobre listas iguales
+La lista original no es igual a la lista clon
+
+
+
+-!-105::?-?-Imprimo prueba de == sobre listas distintas
+1
+
+-!-106::?-?-Imprimo el principio de la lista
+6
+
+-!-107::?-?-Imprimo el fin de la lista
+2 3 4 5 6 
+
+-!-108::?-?-Imprimo la lista luego de eliminar el principio
+2 3 4 5 
+
+-!-109::?-?-Imprimo la lista luego de eliminar el fin
+2 4 5 
+
+-!-110::?-?-Imprimo la lista luego de eliminar el elemento 3
+2
+
+-!-111::?-?-Imprimo la recuperación del elemento 2
+Elemento 2 pertenece  a la lista
+
+
+
+-!-112::?-?-Imprimo si el elemento 2 existe en la lista
+Elemento 6 no pertenece a la lista
+
+
+
+-!-113::?-?-Imprimo si el elemento 6 existe en la lista
+La lista no se encuentra vacia
+
+
+
+-!-114::?-?-Imprimo si la lista es vacia
+La lista se encuentra vacia
+
+
+
+-!-115::?-?-Imprimo si la lista creada es vacia 
+La lista no se encuentra llena
+
+
+
+-!-116::?-?-Imprimo si la lista esta llena
+[]
+
+
+
+-!-117::?-?-Imprimo la lista luego de vaciarla
+La lista se encuentra vacia
+
+
+
+-!-118::?-?-Imprimo si la lista es vacia
+-!-Fin::PRUEBAS LISTA ORD
+-!-Ini::PRUEBAS LISTA ORD
+1 2 3 4 5 6 
+
+-!-119::?-?-Imprimo la lista luego de agregar 6 datos
+6
+
+-!-120::?-?-Imprimo el largo de la lista
+Resultado Original: 
+1 2 3 4 5 6 
+
+Resultado Clon: 
+1 2 3 4 5 6 
+
+-!-121::?-?-Imprimo la lista original y su clon
+Resultado Original: 
+1 2 3 4 5 6 
+
+Resultado lista obtenida operador =: 
+1 2 3 4 5 6 
+
+-!-122::?-?-Imprimo la lista original y la obtenida
+La lista original es igual a la lista clon
+
+
+
+-!-123::?-?-Imprimo prueba de == sobre listas iguales
+La lista original no es igual a la lista clon
+
+
+
+-!-124::?-?-Imprimo prueba de == sobre listas distintas
+5
+
+-!-125::?-?-Imprimo el principio de la lista
+5
+
+-!-126::?-?-Imprimo el fin de la lista
+2 3 4 5 6 
+
+-!-127::?-?-Imprimo la lista luego de eliminar el principio
+2 3 4 5 
+
+-!-128::?-?-Imprimo la lista luego de eliminar el fin
+2 4 5 
+
+-!-129::?-?-Imprimo la lista luego de eliminar el elemento 3
+2
+
+-!-130::?-?-Imprimo la recuperación del elemento 2
+Elemento 2 pertenece  a la lista
+
+
+
+-!-131::?-?-Imprimo si el elemento 2 existe en la lista
+Elemento 6 no pertenece a la lista
+
+
+
+-!-132::?-?-Imprimo si el elemento 6 existe en la lista
+La lista no se encuentra vacia
+
+
+
+-!-133::?-?-Imprimo si la lista es vacia
+La lista se encuentra vacia
+
+
+
+-!-134::?-?-Imprimo si la lista creada es vacia 
+La lista no se encuentra llena
+
+
+
+-!-135::?-?-Imprimo si la lista esta llena
+[]
+
+
+
+-!-136::?-?-Imprimo la lista luego de vaciarla
+La lista se encuentra vacia
+
+
+
+-!-137::?-?-Imprimo si la lista es vacia
+-!-Fin::PRUEBAS LISTA ORD
+-!-Ini::PRUEBAS TABLA
+{Cinco:25} - {Cuatro:16} - {Tres:9} - {Dos:4}
+
+-!-138::?-?-Imprimo la tabla luego de agregar cuatro elementos
+4
+
+-!-139::?-?-Imprimo la cantidad de elementos en la tabla 
+Resultado Original: 
+{Cinco:25} - {Cuatro:16} - {Tres:9} - {Dos:4}
+
+Resultado Clon: 
+{Dos:4} - {Tres:9} - {Cuatro:16} - {Cinco:25}
+
+-!-140::?-?-Imprimo la tabla y su clon
+Resultado Original: 
+{Cinco:25} - {Cuatro:16} - {Tres:9} - {Dos:4}
+
+Resultado tabla utilizando operador =: 
+{Cinco:25} - {Cuatro:16} - {Tres:9} - {Dos:4}
+
+-!-141::?-?-Imprimo la tabla y la tabla obtenida
+La tabla original es igual a la tabla clon
+
+
+
+-!-142::?-?-Imprimo prueba de == sobre tablas iguales
+La tabla original no es igual a la tabla clon
+
+
+
+-!-143::?-?-Imprimo prueba de == sobre tablas distintas
+Cinco
+
+-!-144::?-?-Imprimo algun elemento de la  tabla 
+Dos se encuentra definido en la tabla
+
+-!-145::?-?-Imprimo si Dos se encuentra definido en la tabla
+Uno no se encuentra definido en la tabla
+
+-!-146::?-?-Imprimo si Uno se encuentra definido en la tabla
+4
+
+-!-147::?-?-Imprimo la recuperación del elemento Dos
+{Cinco:25} - {Cuatro:16} - {Dos:4}
+
+-!-148::?-?-Imprimo la tabla luego de borrar el elemento Tres
+La tabla no se encuentra vacia
+
+-!-149::?-?-Imprimo si la tabla es vacia
+La tabla se encuentra vacia
+
+-!-150::?-?-Imprimo si la tabla creada  es vacia
+La tabla no se encuentra llena
+
+-!-151::?-?-Imprimo si la tabla creada  se encuentra llena
+[]
+
+-!-152::?-?-Imprimo la tabla luego de vaciarla
+La tabla se encuentra vacia
+
+-!-153::?-?-Imprimo si la tabla es vacia
+-!-Fin::PRUEBAS TABLA
+-!-Ini::PRUEBAS MULTISET
+8 8 6 6 4 4 2 2 0 0 9 8 7 6 5 4 3 2 1 0 
+
+-!-154::?-?-Imprimo la Multiset luego de agregar 20 datos se espera que la cantidad de elementos sea 10
+8- Es null?: True
+8 6 6 4 4 2 2 0 0 9 8 7 6 5 4 3 2 1 0 
+
+-!-155::?-?-Imprimo el Multiset luego de eliminar elemento
+Cantidad Ocurrencias del 2: 3 == 3
+
+-!-156::?-?-Muestro la cantidad de ocurrencias de un elemento
+Es Vacio: False == False
+
+-!-157::?-?-Muestro que el multiset no es vacio
+Resultado Original: 
+8 6 6 4 4 2 2 0 0 9 8 7 6 5 4 3 2 1 0 
+Resultado Clon: 
+0 1 2 3 4 5 6 7 8 9 0 0 2 2 4 4 6 6 8 
+
+-!-158::?-?-Clono el multiset y imprmio el original y el clon
+Resultado Original: 
+8 6 6 4 4 2 2 0 0 9 8 7 6 5 4 3 2 1 0 
+Resultado Clon: 
+9 8 8 7 6 6 6 5 4 4 4 3 2 2 2 1 0 0 0 
+
+-!-159::?-?-Asigno un nuevo multiset y imprimo la original y la asignada
+Es Igual: True == True
+
+-!-160::?-?-Muestro que el set clon y el original son iguales
+
+Es Vacia: True == True
+
+-!-161::?-?-Vacio el multiset y lo imprimo, verifico que sea vacio
+
+El set es vacio MultiSet: True == True
+
+-!-162::?-?-Creo un multiset usando CrearVacio y muestro que es vacio
+Resultado MultiSet Original: 0 == 0
+Resultado MultiSet Clon: 10 == 10
+
+-!-163::?-?-Muestro la cantidad de elementos del multiset original y el clon
+8 == 8 Elemento recuperado igual al elemento esperado: True
+6 == 6 Elemento recuperado igual al elemento esperado: True
+6 == 6 Elemento recuperado igual al elemento esperado: True
+4 == 4 Elemento recuperado igual al elemento esperado: True
+4 == 4 Elemento recuperado igual al elemento esperado: True
+2 == 2 Elemento recuperado igual al elemento esperado: True
+2 == 2 Elemento recuperado igual al elemento esperado: True
+0 == 0 Elemento recuperado igual al elemento esperado: True
+0 == 0 Elemento recuperado igual al elemento esperado: True
+9 == 9 Elemento recuperado igual al elemento esperado: True
+8 == 8 Elemento recuperado igual al elemento esperado: True
+7 == 7 Elemento recuperado igual al elemento esperado: True
+6 == 6 Elemento recuperado igual al elemento esperado: True
+5 == 5 Elemento recuperado igual al elemento esperado: True
+4 == 4 Elemento recuperado igual al elemento esperado: True
+3 == 3 Elemento recuperado igual al elemento esperado: True
+2 == 2 Elemento recuperado igual al elemento esperado: True
+1 == 1 Elemento recuperado igual al elemento esperado: True
+0 == 0 Elemento recuperado igual al elemento esperado: True
+
+-!-164::?-?-Imprimo los elementos del set mientras los recupero
+0- Existe en el MultiSet el elemento: True
+1- Existe en el MultiSet el elemento: True
+2- Existe en el MultiSet el elemento: True
+3- Existe en el MultiSet el elemento: True
+4- Existe en el MultiSet el elemento: True
+5- Existe en el MultiSet el elemento: True
+6- Existe en el MultiSet el elemento: True
+7- Existe en el MultiSet el elemento: True
+8- Existe en el MultiSet el elemento: True
+9- Existe en el MultiSet el elemento: True
+0- Existe en el MultiSet el elemento: True
+0- Existe en el MultiSet el elemento: True
+2- Existe en el MultiSet el elemento: True
+2- Existe en el MultiSet el elemento: True
+4- Existe en el MultiSet el elemento: True
+4- Existe en el MultiSet el elemento: True
+6- Existe en el MultiSet el elemento: True
+6- Existe en el MultiSet el elemento: True
+8- Existe en el MultiSet el elemento: True
+
+-!-165::?-?-Imprimo los elementos del set mientras pregunto si existen en el
+Se espera: 3 1 2 2 2 Se obtiene:1 2 3 2 2 
+-!-166::?-?-Pruebo la union entre dos multiset
+Se espera: 2 Se obtiene:1 2 3 2 2 
+-!-167::?-?-Pruebo la Interseccion entre dos multiset
+Se espera: 1 Se obtiene:1 2 3 2 
+-!-168::?-?-Pruebo la Diferencia entre dos multiset
+MultiSet A: 2 1 MultiSet B:1 2 2 3 A contenidoEn B:1 == TrueB contenidoEn A:0 == FalseA contenidoEn A:1 == True
+-!-169::?-?-Pruebo la ContendioEn entre dos multiset
+-!-Fin::PRUEBAS MULTISET

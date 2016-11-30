@@ -59,6 +59,7 @@ bool ParentesisBalanceados(char *formula)
 	bool balanceado = false;
 	for (int i = 0; i < largo; i++) {
 		if (formula[i] == '(') {
+			// Probar hacer switch para los parentesis... case '(', '{' y '[' si encuentro un parentesis q abre chequear que este balanceado
 			for (int j = i; j < largo; j++) {
 				if (formula[j] == ')') {
 					char* aux = new char;
